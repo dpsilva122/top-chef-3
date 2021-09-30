@@ -20,6 +20,7 @@ include('inc/fancymorph.php');
 <? include('inc/topo.php'); ?>
 <? include('inc/menuzin.php'); ?>
 <main>
+
 	<div class="content">
 		<section>
 
@@ -50,7 +51,7 @@ include('inc/fancymorph.php');
 <![endif]>
 		<div id="avancar2">
 			<!-- <script src="https://static.kuula.io/embed.js" data-kuula="https://kuula.co/share/7b3Hw?fs=1&vr=0&sd=1&autorotate=0.26&thumbs=1&hideinst=1&lang=pt&chromeless=0&logo=0" data-width="100%" data-height="100vh"></script> -->
-			<script src="https://static.kuula.io/embed.js" data-kuula="https://kuula.co/share/collection/7lcB8?fs=1&vr=1&autorotate=0.12&thumbs=3&inst=0&info=0&logo=1" data-width="100%" data-height="100vh"></script>
+			<script src="https://static.kuula.io/embed.js" data-kuula="https://kuula.co/share/collection/7kHt7?logo=-1&info=0&fs=1&vr=1&thumbs=3&inst=pt" data-width="100%" data-height="100vh"></script>
 		</div>
 		<div class="hide-desktop">
 			<div class="conteudo-index6" id="def-mob">
@@ -161,7 +162,7 @@ include('inc/fancymorph.php');
 		<div class="clear"></div>
 		</div>
 		<div class="hide-mobile">
-			<div id="set-height"></div>
+			<!-- <div id="set-height"></div>
 			<p id="time"></p>
 			<div id="v0box">
 				<video id="v0" tabindex="0" autobuffer preload>
@@ -172,7 +173,8 @@ include('inc/fancymorph.php');
 			<div id="v0box3"></div>
 			<div id="v0box4"></div>
 			
-			</div>
+			</div> -->
+			<? include ('scroll.php') ?>
 		</div>
 		
 
@@ -223,7 +225,7 @@ include('inc/fancymorph.php');
 		<div class="clear"></div>
 			<div class="aj"></div>
 
-		<div class="conteudo-index3 desliza" id="secagendar">
+		<!-- <div class="conteudo-index3 desliza" id="secagendar">
 			
 			<div class="time-line">
 				<div class="mar"></div>
@@ -288,7 +290,7 @@ include('inc/fancymorph.php');
 			</div>
 			
 			
-			<!-- <a class="lightbox" data-src="#modal2" href="javascript:;"><img src="<?=$url?>imagens/sec6/agendar.png" class="agendar" alt=""></a> -->
+
 			  
 			  <script src ="https://form.jotform.com/static/feedback2.js" type="text/javascript"></script><script type="text/javascript"> var JFL_201890276086056 = new JotformFeedback({ formId: '201890276086056', base: 'https://form.jotform.com/', windowTitle: 'Top Chef', background: '#FFA500', fontColor: '#FFFFFF', type: 'false', height: 500, width: 700, openOnLoad: false }); </script> <a class="btn lightbox-201890276086056" style="margin-top: 16px"><img src="<?=$url?>imagens/sec6/agendar.png" class="agendar" alt=""></a>
 		
@@ -299,9 +301,9 @@ include('inc/fancymorph.php');
 			<img src="<?=$url?>imagens/sec6/galeria/galeria1.png" class="galeria1" alt="">
 			<img src="<?=$url?>imagens/sec6/galeria/galeria2.png" class="galeria2" alt="">
 			<img src="<?=$url?>imagens/sec6/galeria/galeria3.png" class="galeria3" alt="">
-			<!-- <img src="<?=$url?>imagens/sec6/time-line.png" class="time-line" alt=""> -->
+
 			
-		</div>
+		</div> -->
 		<div class="clear"></div>
 		<!-- <div class="icon-scroll"><div/> -->
 			<a href="<?=$url?>#set-height" class="hide-mobile"><img src="<?=$url?>imagens/sec1/seta-portal.gif" class="icon-scroll" alt=""></a>
@@ -312,6 +314,7 @@ include('inc/fancymorph.php');
 	</section>
 </div>
 </main>
+
 <? include('inc/footer.php'); ?>
 <!-- =====================video começo======================= -->
 <script>
